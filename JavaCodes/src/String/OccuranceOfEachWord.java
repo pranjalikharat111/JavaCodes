@@ -7,7 +7,7 @@ public class OccuranceOfEachWord {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a String:");
 		String s = sc.nextLine();
-		int count[]=new int[256];
+	int count[]=new int[256];
 		
 		for(int i=0;i<s.length();i++) {
 

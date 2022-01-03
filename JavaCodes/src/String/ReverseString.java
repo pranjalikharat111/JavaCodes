@@ -6,7 +6,7 @@ public class ReverseString {
 		// TODO Auto-generated method stub
 String s=" i live in india";
 String rev="";
-int leng= s.length();
+ int leng= s.length();
 for(int i=leng-1;i>=0;i--) {
 	rev=rev+s.charAt(i);
 }
